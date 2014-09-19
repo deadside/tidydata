@@ -22,7 +22,9 @@ The provided R-Script requires you to already have downloaded and extracted the 
 
 To run the script, download it to your working directory and type: source("run_analysis.R")
 
-You will get below 2 files in your working directory:
+The output will generate 2 files in your working directory:
 
-Merged_Data.csv - A CSV file having merged dataset.
-Tidy_Data.txt - A text file having tidy dataset asked as 5th requirement of script.
+- UCI_tidy_dataset.txt which is the tidy dataset from the last step above.
+- UCI_Merged_dataset.csv which provides the fully merged dataset in a non-tidy form
+
+For additional information, please see the comments in the script and the codebook.
